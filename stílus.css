@@ -1,5 +1,51 @@
+* {
+    box-sizing: border-box;
+}
 body{
     margin: auto;
     width: 80%;
     max-width: 800px;
+    
+}
+.fejlec{
+    border: 1px solid grey;
+    padding: 5px;
+}
+.tarolo{
+    
+    padding: 5px;
+    border: 1px solid grey;
+}
+.menu ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 1fr;
+}
+.menu li{
+    padding: 5px 10px;
+}
+.menu a{
+    text-decoration: none;
+    color: green;
+}
+.menu a:hover{
+    background-color: red;
+    border: 1px solid grey;
+}
+ul{
+    border: 1px solid grey;
+}
+.kiskep{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.keret{
+    border: 1px solid grey;
+    padding: 5px;
+}
+img{
+    border: 1px solid grey;
+    padding: 5px;
+    width: 100%;
 }
