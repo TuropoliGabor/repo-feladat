@@ -49,3 +49,8 @@ img{
     padding: 5px;
     width: 100%;
 }
+@media screen and (max-width:500;){
+    .menu ul{
+        grid-template-columns: 1fr;
+    }
+}
