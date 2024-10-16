@@ -8,13 +8,16 @@ body{
     
 }
 .fejlec{
-    border: 1px solid grey;
+    border: 1px solid gray;
     padding: 5px;
 }
 .tarolo{
     
     padding: 5px;
     border: 1px solid grey;
+}
+.menu{
+    background-color: gray;
 }
 .menu ul{
     list-style: none;
@@ -26,9 +29,10 @@ body{
 }
 .menu a{
     text-decoration: none;
-    color: green;
+    color: red;
 }
 .menu a:hover{
+    color: white;
     background-color: red;
     border: 1px solid grey;
 }
@@ -49,8 +53,11 @@ img{
     padding: 5px;
     width: 100%;
 }
-@media screen and (max-width:500;){
+@media screen and (max-width:500px){
     .menu ul{
+        grid-template-columns: 1fr;
+    }
+    .kiskep{
         grid-template-columns: 1fr;
     }
 }
